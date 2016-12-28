@@ -1,7 +1,9 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/buy/buy",
+    "pages/cart/cart",
+    "pages/me/me"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -11,18 +13,18 @@
   },
   "tabBar":{
     "color":"#666",
-    "selectedColor": "#999",
-    "backgroundColor":"#666",
+    "selectedColor": "red",
+    "backgroundColor":"#fff",
     "position":"bottom",
     "list":[
       {
-        "pagePath":"pages/HomPage/HomPage",
+        "pagePath":"pages/index/index",
         "text":"首页"
       },{
         "pagePath":"pages/buy/buy",
         "text":"购买"
       },{
-        "pagePath":"pages/shoppingCart/shoppingCart",
+        "pagePath":"pages/cart/cart",
         "text":"购物车"
       },{
         "pagePath":"pages/me/me",
