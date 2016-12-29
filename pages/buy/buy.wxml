@@ -1,1 +1,14 @@
-<view>购买</view>
+<view>
+	<swiper indicator-dots="true" autoplay="true" duration="1000">
+	<!--swiper-item只能包含一个节点再多会自动删除-->
+	    <swiper-item>
+	        <view style="background: red; height: 150px"></view>
+	    </swiper-item>
+	    <swiper-item>
+	         <view style="background: green; height: 150px"></view>
+	    </swiper-item>
+	        <swiper-item>
+	          <view style="background: blue; height: 150px"></view>
+	    </swiper-item>    
+	</swiper>
+</view>

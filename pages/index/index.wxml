@@ -1,3 +1,13 @@
+<view>
+	<swiper indicator-dots="true" autoplay="true" duration="500" circular="true">
+		<swiper-item wx:for="{{swiperArr}}" wx:key="unique">
+		 	<image src="{{item.image.url}}" alt="" ></image>
+		 	<p>{{ item.image }}</p>
+		</swiper-item>
+	</swiper>
+</view>
+
+
 <view class="container">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
