@@ -1,4 +1,9 @@
 //app.js
+import { setCookie, getCookie } from "/libs/cookie.js";
+
+wx._ = require('/libs/underscore.js');
+wx.setCookie = setCookie;
+wx.getCookie = getCookie;
 App({
   onLaunch: function () {
     // 展示本地存储能力

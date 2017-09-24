@@ -1,0 +1,27 @@
+.top-search-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: #fff;
+    width: 100%;
+    height: 120rpx;
+    border-bottom: 1px solid #ccc;
+    padding-right: 10rpx;
+}
+.top-seacrh-logo {
+    width: 400rpx;
+    height: 100rpx;
+}
+.top-seacrh-logo image {
+    width: 100%;
+}
+.top-seacrh-icon {
+    width: 60rpx;
+}
+.top-seacrh-icon image {
+    width: 56rpx;
+}
+.top-seacrh-icon span {
+    font-size: 20rpx;
+}

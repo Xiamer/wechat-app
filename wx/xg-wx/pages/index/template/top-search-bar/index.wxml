@@ -1,6 +1,11 @@
 <template name="topSearchBar">
-   <view>
-    <text> {{index}}: {{msg}} </text>
-    <text> Time: {{time}} </text>
+   <view class="top-search-bar flex flex-main-justify flex-cross-center">
+    <view class="top-seacrh-logo">
+      <image class="logo-bar" mode="widthFix" src="/images/logo-bar.png"></image>
+    </view>
+    <view class="top-seacrh-icon flex flex-dir-top flex-main-justify flex-cross-center">
+      <image class="search-icon" mode="widthFix" src="/images/search-ico.png"></image>
+      <span>搜索</span>
+    </view>
   </view>
 </template>

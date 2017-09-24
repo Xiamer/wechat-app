@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/cat/cat",
     "pages/logs/logs"
   ],
   "window": {
@@ -22,7 +23,7 @@
         "selectedIconPath": "/images/tab-bar/icon_tabbar_home_active.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/cat/cat",
         "text": "购物车",
         "iconPath": "/images/tab-bar/icon_tabbar_shopcart_unactive.png",
         "selectedIconPath": "/images/tab-bar/icon_tabbar_shopcart_active.png"
@@ -32,12 +33,12 @@
         "text": "我的",
         "iconPath": "/images/tab-bar/icon_tabbar_me_unactive.png",
         "selectedIconPath": "/images/tab-bar/icon_tabbar_me_active.png"
-        
       }
     ]
   },
   "networkTimeout": {
     "request": 60000,
     "downloadFile": 60000
-  }
+  },
+  "debug": true
 }

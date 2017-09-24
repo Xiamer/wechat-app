@@ -1,0 +1,9 @@
+<template name="banner">
+   	<swiper class="banner-contianer" indicator-dots="true" autoplay="true" duration="500" circular="true">
+		<swiper-item class="banner-item" wx:for="{{aBannerListData}}" wx:key="unique">
+      <navigator url="/pages/logs/logs" open-type="switchTab">
+        <image src="{{item.image_url}}"></image>
+      </navigator>
+		</swiper-item>
+	</swiper>
+</template>
