@@ -1,19 +1,24 @@
-<view>
-	<swiper indicator-dots="true" autoplay="true" duration="500" circular="true">
-		<swiper-item wx:for="{{swiperArr}}" wx:key="unique">
-		 	<image src="{{item.image.url}}" alt="" ></image>
-		 	<p>{{ item.image }}</p>
-		</swiper-item>
-	</swiper>
-</view>
+
+<import src="template/top-search-bar/index.wxml"/>
+<import src="template/banner/index.wxml" />
 
 
-<view class="container">
-  <view  bindtap="bindViewTap" class="userinfo">
-    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+<scroll-view scroll-y enable-back-to-top="true" class="index-container" bindscrolltolower="{{ null }}">
+    <!-- 顶部bar -->
+   <template is="topSearchBar" />
+   <template is="banner"  data="{{ aBannerListData }}" />
+  <view class="container">
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
+    <view class="usermotto">
+      <text class="user-motto">{{motto}}</text>
+    </view>
   </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
-  </view>
-</view>
+  </scroll-view>

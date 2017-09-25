@@ -1,4 +1,12 @@
 /**index.wxss**/
+@import "../../style/flex.wxss";
+@import "template/top-search-bar/index.wxss";
+@import "template/banner/index.wxss";
+
+
+.index-container {
+  padding-top: 120rpx;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
